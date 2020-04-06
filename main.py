@@ -8,3 +8,11 @@ for dirname, _, filenames in os.walk('data'):
         print(os.path.join(dirname, filename))
 
 # %%
+train_data = pd.read_csv('data/train.csv')
+train_data.head()
+
+# %%
+test_data = pd.read_csv('data/test.csv')
+test_data.head()
+
+# %%
